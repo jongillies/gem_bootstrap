@@ -68,8 +68,6 @@ find . | grep \.bak$ | xargs rm
 
 rm -rf .git
 
-cd ..
-
-cd $name
-
-
+echo "run this to setup your gemset:"
+echo
+echo "cd .. ; cd $name ; bundle"
