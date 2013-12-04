@@ -61,9 +61,10 @@ rm bin/gem_bootstrap
 cd bin
 ln -s $name.rb $name
 
+rm .rvmrc
 echo "rvm use ruby-1.9.3-p484@$name --create" > .rvmrc
 
 find . | grep \.bak$ | xargs rm
 
-rm -rfi .git
+rm -rf .git
 
