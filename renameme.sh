@@ -68,6 +68,8 @@ find . | grep \.bak$ | xargs rm
 
 rm -rf .git
 
-rvm use ruby-1.9.3-p484@$name --create
+cd ..
+
+cd $name
 
 
