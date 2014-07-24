@@ -2,7 +2,7 @@ require 'trollop'
 require 'shellwords'
 
 module GemBootstrap
-  class GemName
+  class Cli
     attr_reader :cli_arg
     def initialize(args={})
       opts = Trollop::options(args) do

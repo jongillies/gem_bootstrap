@@ -62,7 +62,7 @@ cd bin
 ln -s $name.rb $name
 cd ..
 
-echo "rvm use ruby-1.9.3-p484@$name --create" > .rvmrc
+echo "rvm use ruby-2.1.2@$name --create" > .rvmrc
 
 find . | grep \.bak$ | xargs rm
 
