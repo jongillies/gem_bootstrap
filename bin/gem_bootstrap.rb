@@ -2,4 +2,4 @@
 
 require 'gem_bootstrap'
 
-GemBootstrap::GemName.new(ARGV)
+GemBootstrap::Cli.new(ARGV)
