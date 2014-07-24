@@ -46,6 +46,7 @@ README.md
 lib/gem_bootstrap.rb
 lib/gem_bootstrap/version.rb
 spec/cli_spec.rb
+lib/gem_bootstrap/cli.rb
 bin/gem_bootstrap.rb"
 
 for file in $files
