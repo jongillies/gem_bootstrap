@@ -46,6 +46,7 @@ README.md
 lib/gem_bootstrap.rb
 lib/gem_bootstrap/version.rb
 spec/cli_spec.rb
+lib/gem_bootstrap/cli.rb
 bin/gem_bootstrap.rb"
 
 for file in $files
@@ -62,7 +63,7 @@ cd bin
 ln -s $name.rb $name
 cd ..
 
-echo "rvm use ruby-1.9.3-p484@$name --create" > .rvmrc
+echo "rvm use ruby-2.1.2@$name --create" > .rvmrc
 
 find . | grep \.bak$ | xargs rm
 
