@@ -63,7 +63,8 @@ cd bin
 ln -s $name.rb $name
 cd ..
 
-echo "rvm use ruby-2.1.2@$name --create" > .rvmrc
+echo "2.2.3" >> .ruby-version
+echo "$name" > .ruby-gemset
 
 find . | grep \.bak$ | xargs rm
 
